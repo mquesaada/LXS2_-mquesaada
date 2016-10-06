@@ -1,0 +1,11 @@
+  --- Physical volume ---
+  PV Name               /dev/sda2
+  VG Name               centos
+  PV Size               14.64 GiB / not usable 4.00 MiB
+  Allocatable           yes 
+  PE Size               4.00 MiB
+  Total PE              3748
+  Free PE               10
+  Allocated PE          3738
+  PV UUID               x1Uybe-GncF-nwLD-0xTt-2fXf-EIjs-KGSjUf
+   
