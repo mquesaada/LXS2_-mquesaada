@@ -1,0 +1,84 @@
+    1  clear
+    2  ls
+    3  sudo -s
+    4  ls\
+    5  ls
+    6  pwd
+    7  mkdir LXS2_maquesada
+    8  cd mquesada
+    9  cd LXS2_mquesada
+   10  cd LXS2_maquesada
+   11  pwd
+   12* 
+   13  mkdir history
+   14  mkdir src
+   15  mkdir misc
+   16  tree
+   17  sudo apt-get install tree
+   18  tree
+   19  touch history/file
+   20  touch misc/file
+   21  touch src/file
+   22  tree
+   23  git config --global user.name "Marco Quesada"
+   24  git config --global user.email marco.quesada.6@hotmail.es
+   25  git init
+   26  cat ../.gitconfig
+   27  ls ../
+   28  ls../..
+   29  ls ../..
+   30  cat ../.gitconfig
+   31  tree
+   32  git add .gitignore
+   33  git status
+   34  touch misc/file2
+   35* 
+   36  git add misc/
+   37  git status
+   38  git commit -m "inicio del arbol del desarrollo"
+   39  git log
+   40* 
+   41* 
+   42  git status
+   43  git log
+   44  gitk
+   45  sudo apt-get install gitk
+   46  clear
+   47  git remote add origin https//github.com/mquesaada/LXS2_-mquesaada.git
+   48  git remote add origin https://github.com/mquesaada/LXS2_-mquesaada.git
+   49  git remote rm origin
+   50  git remote -v
+   51  git remote add origin https://github.com/mquesaada/LXS2_-mquesaada.git
+   52  git remote -v
+   53  git push origin master
+   54  dmesg | less
+   55  clear
+   56* 
+   57  cat misc/file2
+   58  echo " " zz misc/file2
+   59  echo " " >> misc/file2
+   60  cat misc/file2
+   61  cat /ect network/interfaces >> misc/file2
+   62  cat /etc/network/interfaces >> misc/file2
+   63  cat misc/file2
+   64  dmesg git staus
+   65  git status
+   66  git add misc/file2
+   67  git status
+   68  cp ../.bashrc
+   69  cp ../.bashrc .
+   70  git status
+   71  mv .bashrc misc/bashrc
+   72  git status
+   73  git add misc/bashrc
+   74  git status
+   75  git commit -m "agregue archivo misc/bashrc y modifique misc/file2"
+   76  git log
+   77  vim .gitignore
+   78  clear
+   79* 
+   80  touch history/file
+   81  git status
+   82  clear
+   83  history/history-$HOSTNAME-`date +%Y%m%d` -Final-de-semana1
+   84  history > history/history-$HOSTNAME-`date +%Y%m%d`-Final-de-semana1
