@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"20c4a8c482","applicationID":"454369","transactionName":"dl5cQkcLXF9XRBoBW1YeX1db","queueTime":14,"applicationTime":155,"ttGuid":"","agentToken":null,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+
+  <title>Git - gitk Documentation</title>
+
+  <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+  <link rel="alternate" href="/blog.rss" type="application/rss+xml" title="Git - Blog">
+
+  <link rel="stylesheet" media="screen" href="/assets/git-scm-65ca8280a031499ee9e8e2b10c8a596c.css" />
+  <script src="/assets/modernizr-10d8d48497292341fc1c4a63d06c6f61.js"></script>
+<script src="/assets/modernizr-tests-0e26a9afd9c6455a99b7b4165485c366.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="/javascripts/selectivizr-min.js"></script>
+  <![endif]-->
+
+  <script src="https://use.typekit.com/jsq2fql.js" type="text/javascript"></script>
+  <script>
+    //<![CDATA[
+      try{Typekit.load();}catch(e){}
+    //]]>
+  </script>
+
+</head>
+
+<body id="documentation">
+
+  <div id="banner">
+    <div class="inner">
+      <h3>The 2016 Git User's Survey is now up! <em>12 September &mdash; 20 October 2016.</em></h3>
+
+      <p>Please devote a few moments of your time to
+      <a href="https://survs.com/survey/0janvqmmyg">fill out the simple questionnaire</a>.
+      It will help the Git community understand your needs, what you like
+      about Git (and what you don't), and help us improve it in general.
+      The results will be published at the
+      <a href="http://git.wiki.kernel.org/index.php/GitSurvey2016">GitSurvey2016</a>
+      wiki page.
+    </div>
+  </div>
+
+  <div class="inner">
+    <header>
+
+  <a href="/"><img src="/images/logo@2x.png" width="110" height="46" alt="Git" /></a>
+  <span id="tagline">
+    <em>--</em>distributed-is-the-new-centralized
+  </span>
+
+  <form id="search" action="/search/results">
+    <input id="search-text" name="search" placeholder="Search entire site..." autocomplete="off" type="text" />
+  </form>
+  <div id="search-results"></div>
+
+</header>
+
+  </div> <!-- .inner -->
+
+    <div class="inner">
+      <div id="content-wrapper">
+        <aside class="sidebar">
+  <nav>
+    <ul>
+      <li>
+        <a href="/about">About</a>
+      </li>
+      <li>
+        <a class="active" href="/doc">Documentation</a>
+        <ul class="expanded">
+          <li>
+            <a href="/docs">Reference</a>
+          </li>
+          <li>
+            <a href="/book">Book</a>
+          </li>
+          <li>
+            <a href="/videos">Videos</a>
+          </li>
+          <li>
+            <a href="/doc/ext">External Links</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/blog">Blog</a>
+      </li>
+      <li>
+        <a href="/downloads">Downloads</a>
+        <ul class="">
+          <li>
+            <a href="/downloads/guis">GUI Clients</a>
+          </li>
+          <li>
+            <a href="/downloads/logos">Logos</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/community">Community</a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+        <div id="content">
+          
+
+  <div id='reference-version'>
+    <a class="dropdown-trigger" id="reference-topics-trigger" data-panel-id="topics-dropdown" href="#">Topics ‚ñæ</a>
+<div class='dropdown-panel right' id='topics-dropdown'>
+  <div class='three-column'>
+    <div class='column-left'>
+      <h3 class='setup'>Setup and Config</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-config">config</a></li>
+  <li><a href="/docs/git-help">help</a></li>
+</ul>
+
+      <h3 class='projects'>Getting and Creating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-init">init</a></li>
+  <li><a href="/docs/git-clone">clone</a></li>
+</ul>
+
+      <h3 class='snapshotting'>Basic Snapshotting</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-add">add</a></li>
+  <li><a href="/docs/git-status">status</a></li>
+  <li><a href="/docs/git-diff">diff</a></li>
+  <li><a href="/docs/git-commit">commit</a></li>
+  <li><a href="/docs/git-reset">reset</a></li>
+  <li><a href="/docs/git-rm">rm</a></li>
+  <li><a href="/docs/git-mv">mv</a></li>
+</ul>
+
+      <h3 class='branching'>Branching and Merging</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-branch">branch</a></li>
+  <li><a href="/docs/git-checkout">checkout</a></li>
+  <li><a href="/docs/git-merge">merge</a></li>
+  <li><a href="/docs/git-mergetool">mergetool</a></li>
+  <li><a href="/docs/git-log">log</a></li>
+  <li><a href="/docs/git-stash">stash</a></li>
+  <li><a href="/docs/git-tag">tag</a></li>
+</ul>
+
+      <h3 class='sharing'>Sharing and Updating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-fetch">fetch</a></li>
+  <li><a href="/docs/git-pull">pull</a></li>
+  <li><a href="/docs/git-push">push</a></li>
+  <li><a href="/docs/git-remote">remote</a></li>
+  <li><a href="/docs/git-submodule">submodule</a></li>
+</ul>
+
+    </div>
+    <div class='column-middle'>
+      <h3 class='inspection'>Inspection and Comparison</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-show">show</a></li>
+  <li><a href="/docs/git-log">log</a></li>
+  <li><a href="/docs/git-diff">diff</a></li>
+  <li><a href="/docs/git-shortlog">shortlog</a></li>
+  <li><a href="/docs/git-describe">describe</a></li>
+</ul>
+
+      <h3 class='patching'>Patching</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-apply">apply</a></li>
+  <li><a href="/docs/git-cherry-pick">cherry-pick</a></li>
+  <li><a href="/docs/git-diff">diff</a></li>
+  <li><a href="/docs/git-rebase">rebase</a></li>
+  <li><a href="/docs/git-revert">revert</a></li>
+</ul>
+
+      <h3 class='debugging'>Debugging</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-bisect">bisect</a></li>
+  <li><a href="/docs/git-blame">blame</a></li>
+  <li><a href="/docs/git-grep">grep</a></li>
+</ul>
+
+      <h3 class='email'>Email</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-am">am</a></li>
+  <li><a href="/docs/git-apply">apply</a></li>
+  <li><a href="/docs/git-format-patch">format-patch</a></li>
+  <li><a href="/docs/git-send-email">send-email</a></li>
+  <li><a href="/docs/git-request-pull">request-pull</a></li>
+</ul>
+
+      <h3 class='external'>External Systems</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-svn">svn</a></li>
+  <li><a href="/docs/git-fast-import">fast-import</a></li>
+</ul>
+
+      <h3 class='server-admin'>Server Admin</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-daemon">daemon</a></li>
+  <li><a href="/docs/git-update-server-info">update-server-info</a></li>
+</ul>
+
+    </div>
+    <div class='column-right'>
+      <h3 class='guides'>Guides</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/gitattributes">attributes</a></li>
+  <li><a href="/docs/giteveryday">everyday</a></li>
+  <li><a href="/docs/gitglossary">glossary</a></li>
+  <li><a href="/docs/gitignore">ignore</a></li>
+  <li><a href="/docs/gitmodules">modules</a></li>
+  <li><a href="/docs/gitrevisions">revisions</a></li>
+  <li><a href="/docs/gittutorial">tutorial</a></li>
+  <li><a href="/docs/gitworkflows">workflows</a></li>
+</ul>
+
+      <h3 class='admin'>Administration</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-clean">clean</a></li>
+  <li><a href="/docs/git-gc">gc</a></li>
+  <li><a href="/docs/git-fsck">fsck</a></li>
+  <li><a href="/docs/git-reflog">reflog</a></li>
+  <li><a href="/docs/git-filter-branch">filter-branch</a></li>
+  <li><a href="/docs/git-instaweb">instaweb</a></li>
+  <li><a href="/docs/git-archive">archive</a></li>
+  <li><a href="/docs/git-bundle">bundle</a></li>
+</ul>
+
+      <h3 class='plumbing'>Plumbing Commands</h3>
+<ul class='unstyled'>
+  <li><a href="/docs/git-cat-file">cat-file</a></li>
+  <li><a href="/docs/git-commit-tree">commit-tree</a></li>
+  <li><a href="/docs/git-count-objects">count-objects</a></li>
+  <li><a href="/docs/git-diff-index">diff-index</a></li>
+  <li><a href="/docs/git-for-each-ref">for-each-ref</a></li>
+  <li><a href="/docs/git-hash-object">hash-object</a></li>
+  <li><a href="/docs/git-ls-files">ls-files</a></li>
+  <li><a href="/docs/git-merge-base">merge-base</a></li>
+  <li><a href="/docs/git-read-tree">read-tree</a></li>
+  <li><a href="/docs/git-rev-list">rev-list</a></li>
+  <li><a href="/docs/git-rev-parse">rev-parse</a></li>
+  <li><a href="/docs/git-show-ref">show-ref</a></li>
+  <li><a href="/docs/git-symbolic-ref">symbolic-ref</a></li>
+  <li><a href="/docs/git-update-index">update-index</a></li>
+  <li><a href="/docs/git-update-ref">update-ref</a></li>
+  <li><a href="/docs/git-verify-pack">verify-pack</a></li>
+  <li><a href="/docs/git-write-tree">write-tree</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+    <a class="dropdown-trigger" id="reference-versions-trigger" data-panel-id="previous-versions-dropdown" href="#">Version 2.10.1 ‚ñæ</a>
+<span class="light">gitk last updated in 2.10.1</span>
+<div class='dropdown-panel left' id='previous-versions-dropdown'>
+  <header>Changes in the <strong>gitk</strong> manual</header>
+  <ol class='reference-previous-versions'>
+        <li>
+        <a href="/docs/gitk/2.10.1"><span class="version">2.10.1</span>
+          <span class="diff">
+              <img src="/images/icons/green-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">10/03/16</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.10.0 no changes</span></li>
+        <li>
+        <a href="/docs/gitk/2.9.3"><span class="version">2.9.3</span>
+          <span class="diff">
+              <img src="/images/icons/green-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">08/12/16</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.5.2 &rarr; 2.9.2 no changes</span></li>
+        <li>
+        <a href="/docs/gitk/2.5.1"><span class="version">2.5.1</span>
+          <span class="diff">
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">08/28/15</em>
+        </a>
+        </li>
+        <li>
+        <a href="/docs/gitk/2.5.0"><span class="version">2.5.0</span>
+          <span class="diff">
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">07/27/15</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.4.10 no changes</span></li>
+        <li>
+        <a href="/docs/gitk/2.4.9"><span class="version">2.4.9</span>
+          <span class="diff">
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">09/04/15</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.4.2 &rarr; 2.4.8 no changes</span></li>
+        <li>
+        <a href="/docs/gitk/2.4.1"><span class="version">2.4.1</span>
+          <span class="diff">
+              <img src="/images/icons/green-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">05/13/15</em>
+        </a>
+        </li>
+        <li>
+        <a href="/docs/gitk/2.4.0"><span class="version">2.4.0</span>
+          <span class="diff">
+              <img src="/images/icons/green-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">04/30/15</em>
+        </a>
+        </li>
+        <li>
+        <a href="/docs/gitk/2.3.9"><span class="version">2.3.9</span>
+          <span class="diff">
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">09/04/15</em>
+        </a>
+        </li>
+        <li>
+        <a href="/docs/gitk/2.3.8"><span class="version">2.3.8</span>
+          <span class="diff">
+              <img src="/images/icons/green-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">05/11/15</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.1.1 &rarr; 2.3.7 no changes</span></li>
+        <li>
+        <a href="/docs/gitk/2.1.0"><span class="version">2.1.0</span>
+          <span class="diff">
+              <img src="/images/icons/green-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">08/15/14</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.0.1 &rarr; 2.0.5 no changes</span></li>
+        <li>
+        <a href="/docs/gitk/2.0.0"><span class="version">2.0.0</span>
+          <span class="diff">
+              <img src="/images/icons/green-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+          </span>
+          <em class="date">05/28/14</em>
+        </a>
+        </li>
+        <li class="no-change"><span>1.9.1 &rarr; 1.9.5 no changes</span></li>
+        <li>
+        <a href="/docs/gitk/1.9.0"><span class="version">1.9.0</span>
+          <span class="diff">
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+          </span>
+          <em class="date">02/14/14</em>
+        </a>
+        </li>
+        <li class="no-change"><span>1.8.5.1 &rarr; 1.8.5.5 no changes</span></li>
+        <li>
+        <a href="/docs/gitk/1.8.5"><span class="version">1.8.5</span>
+          <span class="diff">
+              <img src="/images/icons/green-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">11/27/13</em>
+        </a>
+        </li>
+        <li class="no-change"><span>1.8.2.2 &rarr; 1.8.4.5 no changes</span></li>
+        <li>
+        <a href="/docs/gitk/1.8.2.1"><span class="version">1.8.2.1</span>
+          <span class="diff">
+              <img src="/images/icons/green-dot.png" />
+              <img src="/images/icons/red-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+              <img src="/images/icons/grey-dot.png" />
+          </span>
+          <em class="date">04/07/13</em>
+        </a>
+        </li>
+    <li>&nbsp;</li>
+    <!-- <li><a class="more" href="#">See more previous releases ‚Üí</a></li> -->
+  </ol>
+  <footer>
+    <span class="light">Check your version of git by running<br></span>
+    <strong>$</strong>
+    <input type="text" class="copyable" value="git --version" />
+  </footer>
+</div>
+
+  </div>
+
+  <div id='main'>
+    <div class="sect1">
+  <h2 id="_name">NAME</h2>
+  
+    <div class="sectionbody"><div class="paragraph">
+<p>gitk - The Git repository browser</p>
+</div></div>
+  
+</div>
+<div class="sect1">
+  <h2 id="_synopsis">SYNOPSIS</h2>
+  
+    <div class="sectionbody"><div class="verseblock">
+<pre class="content"><em>gitk</em> [&lt;options&gt;] [&lt;revision range&gt;] [\--] [&lt;path&gt;&#8230;&#8203;]</pre>
+</div></div>
+  
+</div>
+<div class="sect1">
+  <h2 id="_description">DESCRIPTION</h2>
+  
+    <div class="sectionbody"><div class="paragraph">
+<p>Displays changes in a repository or a selected set of commits. This includes
+visualizing the commit graph, showing information related to each commit, and
+the files in the trees of each revision.</p>
+</div></div>
+  
+</div>
+<div class="sect1">
+  <h2 id="_options">OPTIONS</h2>
+  
+    <div class="sectionbody"><div class="paragraph">
+<p>To control which revisions to show, gitk supports most options
+applicable to the <em>git rev-list</em> command.  It also supports a few
+options applicable to the <em>git diff-*</em> commands to control how the
+changes each commit introduces are shown.  Finally, it supports some
+gitk-specific options.</p>
+</div>
+<div class="paragraph">
+<p>gitk generally only understands options with arguments in the
+<em>sticked</em> form (see <a href='/docs/gitcli'>gitcli[7]</a>) due to limitations in the
+command-line parser.</p>
+</div>
+<div class="sect2">
+  <h3 id="_rev_list_options_and_arguments">rev-list options and arguments</h3>
+  
+    <div class="paragraph">
+<p>This manual page describes only the most frequently used options.  See
+<a href='/docs/git-rev-list'>git-rev-list[1]</a> for a complete list.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">--all</dt>
+<dd>
+<p>Show all refs (branches, tags, etc.).</p>
+</dd>
+<dt class="hdlist1">--branches[=&lt;pattern&gt;]</dt>
+<dt class="hdlist1">--tags[=&lt;pattern&gt;]</dt>
+<dt class="hdlist1">--remotes[=&lt;pattern&gt;]</dt>
+<dd>
+<p>Pretend as if all the branches (tags, remote branches, resp.)
+are listed on the command line as <em>&lt;commit&gt;</em>. If <em>&lt;pattern&gt;</em>
+is given, limit refs to ones matching given shell glob. If
+pattern lacks <em>?</em>, <em>*</em>, or <em>[</em>, <em>/*</em> at the
+end is implied.</p>
+</dd>
+<dt class="hdlist1">--since=&lt;date&gt;</dt>
+<dd>
+<p>Show commits more recent than a specific date.</p>
+</dd>
+<dt class="hdlist1">--until=&lt;date&gt;</dt>
+<dd>
+<p>Show commits older than a specific date.</p>
+</dd>
+<dt class="hdlist1">--date-order</dt>
+<dd>
+<p>Sort commits by date when possible.</p>
+</dd>
+<dt class="hdlist1">--merge</dt>
+<dd>
+<p>After an attempt to merge stops with conflicts, show the commits on
+the history between two branches (i.e. the HEAD and the MERGE_HEAD)
+that modify the conflicted files and do not exist on all the heads
+being merged.</p>
+</dd>
+<dt class="hdlist1">--left-right</dt>
+<dd>
+<p>Mark which side of a symmetric difference a commit is reachable
+from.  Commits from the left side are prefixed with a <code>&lt;</code>
+symbol and those from the right with a <code>&gt;</code> symbol.</p>
+</dd>
+<dt class="hdlist1">--full-history</dt>
+<dd>
+<p>When filtering history with <em>&lt;path&gt;&#8230;&#8203;</em>, does not prune some
+history.  (See "History simplification" in <a href='/docs/git-log'>git-log[1]</a>
+for a more detailed explanation.)</p>
+</dd>
+<dt class="hdlist1">--simplify-merges</dt>
+<dd>
+<p>Additional option to <code>--full-history</code> to remove some needless
+merges from the resulting history, as there are no selected
+commits contributing to this merge.  (See "History
+simplification" in <a href='/docs/git-log'>git-log[1]</a> for a more detailed
+explanation.)</p>
+</dd>
+<dt class="hdlist1">--ancestry-path</dt>
+<dd>
+<p>When given a range of commits to display
+(e.g. <em>commit1..commit2</em> or <em>commit2 ^commit1</em>), only
+display commits that exist directly on the ancestry chain
+between the <em>commit1</em> and <em>commit2</em>, i.e. commits that are
+both descendants of <em>commit1</em>, and ancestors of <em>commit2</em>.
+(See "History simplification" in <a href='/docs/git-log'>git-log[1]</a> for a more
+detailed explanation.)</p>
+</dd>
+<dt class="hdlist1">-L&lt;start&gt;,&lt;end&gt;:&lt;file&gt;</dt>
+<dt class="hdlist1">-L:&lt;funcname&gt;:&lt;file&gt;</dt>
+<dd>
+<p>Trace the evolution of the line range given by "&lt;start&gt;,&lt;end&gt;"
+(or the function name regex &lt;funcname&gt;) within the &lt;file&gt;.  You may
+not give any pathspec limiters.  This is currently limited to
+a walk starting from a single revision, i.e., you may only
+give zero or one positive revision arguments.
+You can specify this option more than once.</p>
+<div class="paragraph">
+<p><strong>Note:</strong> gitk (unlike <a href='/docs/git-log'>git-log[1]</a>) currently only understands
+this option if you specify it "glued together" with its argument.  Do
+<strong>not</strong> put a space after <code>-L</code>.</p>
+</div>
+<div class="paragraph">
+<p>&lt;start&gt; and &lt;end&gt; can take one of these forms:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>number</p>
+<div class="paragraph">
+<p>If &lt;start&gt; or &lt;end&gt; is a number, it specifies an
+absolute line number (lines count from 1).</p>
+</div>
+</li>
+<li>
+<p>/regex/</p>
+<div class="paragraph">
+<p>This form will use the first line matching the given
+POSIX regex. If &lt;start&gt; is a regex, it will search from the end of
+the previous <code>-L</code> range, if any, otherwise from the start of file.
+If &lt;start&gt; is &#8220;^/regex/&#8221;, it will search from the start of file.
+If &lt;end&gt; is a regex, it will search
+starting at the line given by &lt;start&gt;.</p>
+</div>
+</li>
+<li>
+<p>+offset or -offset</p>
+<div class="paragraph">
+<p>This is only valid for &lt;end&gt; and will specify a number
+of lines before or after the line given by &lt;start&gt;.</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If &#8220;:&lt;funcname&gt;&#8221; is given in place of &lt;start&gt; and &lt;end&gt;, it is a
+regular expression that denotes the range from the first funcname line
+that matches &lt;funcname&gt;, up to the next funcname line. &#8220;:&lt;funcname&gt;&#8221;
+searches from the end of the previous <code>-L</code> range, if any, otherwise
+from the start of file. &#8220;^:&lt;funcname&gt;&#8221; searches from the start of
+file.</p>
+</div>
+</dd>
+</dl>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">&lt;revision range&gt;</dt>
+<dd>
+<p>Limit the revisions to show. This can be either a single revision
+meaning show from the given revision and back, or it can be a range in
+the form "<em>&lt;from&gt;</em>..<em>&lt;to&gt;</em>" to show all revisions between <em>&lt;from&gt;</em> and
+back to <em>&lt;to&gt;</em>. Note, more advanced revision selection can be applied.
+For a more complete list of ways to spell object names, see
+<a href='/docs/gitrevisions'>gitrevisions[7]</a>.</p>
+</dd>
+<dt class="hdlist1">&lt;path&gt;&#8230;&#8203;</dt>
+<dd>
+<p>Limit commits to the ones touching files in the given paths. Note, to
+avoid ambiguity with respect to revision names use "--" to separate the paths
+from any preceding options.</p>
+</dd>
+</dl>
+</div>
+  
+</div>
+<div class="sect2">
+  <h3 id="_gitk_specific_options">gitk-specific options</h3>
+  
+    <div class="dlist">
+<dl>
+<dt class="hdlist1">--argscmd=&lt;command&gt;</dt>
+<dd>
+<p>Command to be run each time gitk has to determine the revision
+range to show.  The command is expected to print on its
+standard output a list of additional revisions to be shown,
+one per line.  Use this instead of explicitly specifying a
+<em>&lt;revision range&gt;</em> if the set of commits to show may vary
+between refreshes.</p>
+</dd>
+<dt class="hdlist1">--select-commit=&lt;ref&gt;</dt>
+<dd>
+<p>Select the specified commit after loading the graph.
+Default behavior is equivalent to specifying <em>--select-commit=HEAD</em>.</p>
+</dd>
+</dl>
+</div>
+  
+</div></div>
+  
+</div>
+<div class="sect1">
+  <h2 id="_examples">Examples</h2>
+  
+    <div class="sectionbody"><div class="dlist">
+<dl>
+<dt class="hdlist1">gitk v2.6.12.. include/scsi drivers/scsi</dt>
+<dd>
+<p>Show the changes since version <em>v2.6.12</em> that changed any
+file in the include/scsi or drivers/scsi subdirectories</p>
+</dd>
+<dt class="hdlist1">gitk --since="2 weeks ago" -- gitk</dt>
+<dd>
+<p>Show the changes during the last two weeks to the file <em>gitk</em>.
+The "--" is necessary to avoid confusion with the <strong>branch</strong> named
+<em>gitk</em></p>
+</dd>
+<dt class="hdlist1">gitk --max-count=100 --all -- Makefile</dt>
+<dd>
+<p>Show at most 100 changes made to the file <em>Makefile</em>. Instead of only
+looking for changes in the current branch look in all branches.</p>
+</dd>
+</dl>
+</div></div>
+  
+</div>
+<div class="sect1">
+  <h2 id="_files">Files</h2>
+  
+    <div class="sectionbody"><div class="paragraph">
+<p>User configuration and preferences are stored at:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><em>$XDG_CONFIG_HOME/git/gitk</em> if it exists, otherwise</p>
+</li>
+<li>
+<p><em>$HOME/.gitk</em> if it exists</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If neither of the above exist then <em>$XDG_CONFIG_HOME/git/gitk</em> is created and
+used by default. If <em>$XDG_CONFIG_HOME</em> is not set it defaults to
+<em>$HOME/.config</em> in all cases.</p>
+</div></div>
+  
+</div>
+<div class="sect1">
+  <h2 id="_history">History</h2>
+  
+    <div class="sectionbody"><div class="paragraph">
+<p>Gitk was the first graphical repository browser. It&#8217;s written in
+tcl/tk and started off in a separate repository but was later merged
+into the main Git repository.</p>
+</div></div>
+  
+</div>
+<div class="sect1">
+  <h2 id="_see_also">SEE ALSO</h2>
+  
+    <div class="sectionbody"><div class="dlist">
+<dl>
+<dt class="hdlist1"><em>qgit(1)</em></dt>
+<dd>
+<p>A repository browser written in C++ using Qt.</p>
+</dd>
+<dt class="hdlist1"><em>gitview(1)</em></dt>
+<dd>
+<p>A repository browser written in Python using Gtk. It&#8217;s based on
+<em>bzrk(1)</em> and distributed in the contrib area of the Git repository.</p>
+</dd>
+<dt class="hdlist1"><em>tig(1)</em></dt>
+<dd>
+<p>A minimal repository browser and Git tool output highlighter written
+in C using Ncurses.</p>
+</dd>
+</dl>
+</div></div>
+  
+</div>
+<div class="sect1">
+  <h2 id="_git">GIT</h2>
+  
+    <div class="sectionbody"><div class="paragraph">
+<p>Part of the <a href='/docs/git'>git[1]</a> suite</p>
+</div></div>
+  
+</div>
+  </div>
+
+        </div>
+      </div>
+      <footer>
+  <div class="site-source">
+    This <a href="https://github.com/git/git-scm.com/blob/master/README.md#license">open sourced</a> site is <a href="https://github.com/git/git-scm.com">hosted on GitHub.</a><br>
+    Patches, suggestions and comments are welcome.
+  </div>
+  <div class="sfc-member">
+    Git is a member of <a href="/sfc">Software Freedom Conservancy</a>
+  </div>
+</footer>
+
+<script src="/assets/jquery-1.7.1.min-ae4fcd0fbc7a69a0676014f3b0488876.js"></script>
+<script src="/assets/jquery-ui-1.8.18.custom.min-e26b28f4c867b7ddf80395d18c42afe3.js"></script>
+<script src="/assets/jquery.defaultvalue-fb4265b0e862acfce66a73a5131528b3.js"></script>
+<script src="/assets/session.min-84e4d7864bab5f4f7b2eafd9c1ebc0ca.js"></script>
+<script src="/assets/site-1dedb2e04243f2cda0b571c1ade66561.js"></script>
+
+    </div>
+
+</body>
+</html>
+èƒÍàO:      X	
+ıX	
+˝=|ÿ           :https://git-scm.com/docs/gitk necko:classified 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: Cowboy
+Date: Thu, 20 Oct 2016 18:20:40 GMT
+Status: 200 OK
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 34355
+Etag: W/"3aacc2517ed0f37f6af290bd9b48862f"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 29e3fcff-9198-426c-9f3f-8347c9342882
+X-Runtime: 0.155377
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 vegur
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 21 predictor::https://git-scm.com/assets/git-scm-65ca8280a031499ee9e8e2b10c8a596c.css 1,1,1476987637,0 predictor::https://git-scm.com/assets/modernizr-10d8d48497292341fc1c4a63d06c6f61.js 1,1,1476987637,0 predictor::https://git-scm.com/assets/modernizr-tests-0e26a9afd9c6455a99b7b4165485c366.js 1,1,1476987637,0 predictor::https://use.typekit.com/jsq2fql.js 1,1,1476987637,0 predictor::https://git-scm.com/images/logo@2x.png 1,1,1476987637,0 predictor::https://git-scm.com/images/icons/green-dot.png 1,1,1476987637,0 predictor::https://git-scm.com/images/icons/red-dot.png 1,1,1476987637,0 predictor::https://git-scm.com/images/icons/grey-dot.png 1,1,1476987637,0 predictor::https://git-scm.com/assets/jquery-1.7.1.min-ae4fcd0fbc7a69a0676014f3b0488876.js 1,1,1476987637,0 predictor::https://git-scm.com/assets/jquery-ui-1.8.18.custom.min-e26b28f4c867b7ddf80395d18c42afe3.js 1,1,1476987637,0 predictor::https://git-scm.com/assets/jquery.defaultvalue-fb4265b0e862acfce66a73a5131528b3.js 1,1,1476987637,0 predictor::https://git-scm.com/assets/session.min-84e4d7864bab5f4f7b2eafd9c1ebc0ca.js 1,1,1476987637,0 predictor::https://git-scm.com/assets/site-1dedb2e04243f2cda0b571c1ade66561.js 1,1,1476987637,0 predictor::https://git-scm.com/images/bg/body.jpg 1,1,1476987637,0 predictor::https://git-scm.com/images/icons/search.png 1,1,1476987637,0 predictor::https://git-scm.com/images/icons/code.png 1,1,1476987637,0 predictor::https://www.google.com/jsapi?callback=gloader_ready 1,1,1476987637,0 predictor::https://secure.gaug.es/track.js 1,1,1476987637,0 predictor::https://secure.gaug.es/track.gif?h[site_id]=4f919d1df5a1f504b3000026&h[resource]=https%3A%2F%2Fgit-scm.com%2Fdocs%2Fgitk&h[referrer]=https%3A%2F%2Fwww.google.com&h[title]=Git%20-%20gitk%20Documentation&h[user_agent]=Mozilla%2F5.0%20(X11%3B%20Ubuntu%3B%20Linux%20x86_64%3B%20rv%3A47.0)%20Gecko%2F20100101%20Firefox%2F47.0&h[unique]=1&h[unique_hour]=1&h[unique_day]=1&h[unique_month]=1&h[unique_year]=1&h[screenx]=2560&h[browserx]=1105&h[browsery]=940&timestamp=1476987644810 1,1,1476987637,0 predictor::https://js-agent.newrelic.com/nr-974.min.js 1,1,1476987637,0 predictor::https://bam.nr-data.net/1/20c4a8c482?a=454369&v=974.7d740e1&to=dl5cQkcLXF9XRBoBW1YeX1db&rst=7823&ref=https://git-scm.com/docs/gitk&qt=14&ap=155&be=2605&fe=4475&dc=3205&perf=%7B%22timing%22:%7B%22of%22:1476987637929,%22n%22:0,%22f%22:32,%22dn%22:32,%22dne%22:1426,%22c%22:1426,%22ce%22:1426,%22rq%22:2175,%22rp%22:2504,%22rpe%22:2713,%22dl%22:2528,%22di%22:5748,%22ds%22:5810,%22de%22:5832,%22dc%22:7079,%22l%22:7079,%22le%22:7081%7D,%22navigation%22:%7B%7D%7D&jsonp=NREUM.setToken 1,1,1476987637,0   Ü3

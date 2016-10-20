@@ -1,0 +1,179 @@
+gnome-session-is-accelerated: llvmpipe detected.
+GNOME_KEYRING_CONTROL=/run/user/999/keyring-wDZSAy
+SSH_AUTH_SOCK=/run/user/999/keyring-wDZSAy/ssh
+GPG_AGENT_INFO=/run/user/999/keyring-wDZSAy/gpg:0:1
+GNOME_KEYRING_CONTROL=/run/user/999/keyring-wDZSAy
+SSH_AUTH_SOCK=/run/user/999/keyring-wDZSAy/ssh
+GPG_AGENT_INFO=/run/user/999/keyring-wDZSAy/gpg:0:1
+GNOME_KEYRING_CONTROL=/run/user/999/keyring-wDZSAy
+SSH_AUTH_SOCK=/run/user/999/keyring-wDZSAy/ssh
+GPG_AGENT_INFO=/run/user/999/keyring-wDZSAy/gpg:0:1
+GNOME_KEYRING_CONTROL=/run/user/999/keyring-wDZSAy
+SSH_AUTH_SOCK=/run/user/999/keyring-wDZSAy/ssh
+GPG_AGENT_INFO=/run/user/999/keyring-wDZSAy/gpg:0:1
+compiz (core) - Info: Loading plugin: core
+compiz (core) - Info: Starting plugin: core
+compiz (core) - Info: Loading plugin: ccp
+compiz (core) - Info: Starting plugin: ccp
+compizconfig - Info: Backend     : gsettings
+compizconfig - Info: Integration : true
+compizconfig - Info: Profile     : unity
+
+** (process:4780): CRITICAL **: bluez.vala:104: GDBus.Error:org.bluez.Error.NoSuchAdapter: No such adapter
+
+(process:4777): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+
+(process:4777): indicator-application-service-WARNING **: Name Lost
+
+** (nm-applet:4768): CRITICAL **: nm_secret_agent_register: assertion 'priv->registered == FALSE' failed
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+
+(process:4752): GLib-GIO-WARNING **: g_settings_set_value: value for key 'visual-bell-type' in schema 'org.gnome.desktop.wm.preferences' is outside of valid range
+compiz (core) - Info: Loading plugin: composite
+compiz (core) - Info: Starting plugin: composite
+compiz (core) - Info: Loading plugin: opengl
+compiz (core) - Info: Starting plugin: opengl
+compiz (core) - Info: Loading plugin: place
+compiz (core) - Info: Starting plugin: place
+compiz (core) - Info: Loading plugin: regex
+compiz (core) - Info: Starting plugin: regex
+compiz (core) - Info: Loading plugin: resize
+compiz (core) - Info: Starting plugin: resize
+compiz (core) - Info: Loading plugin: session
+compiz (core) - Info: Starting plugin: session
+I/O warning : failed to load external entity "/home/ubuntu/.compiz/session/108f028c50d9103b03147698674856959100000045920001"
+compiz (core) - Info: Loading plugin: snap
+compiz (core) - Info: Starting plugin: snap
+compiz (core) - Info: Loading plugin: vpswitch
+compiz (core) - Info: Starting plugin: vpswitch
+compiz (core) - Info: Loading plugin: wall
+compiz (core) - Info: Starting plugin: wall
+compiz (core) - Info: Loading plugin: animation
+compiz (core) - Info: Starting plugin: animation
+compiz (core) - Info: Loading plugin: commands
+compiz (core) - Info: Starting plugin: commands
+compiz (core) - Info: Loading plugin: compiztoolbox
+compiz (core) - Info: Starting plugin: compiztoolbox
+compiz (core) - Info: Loading plugin: copytex
+compiz (core) - Info: Starting plugin: copytex
+compiz (core) - Info: Loading plugin: fade
+compiz (core) - Info: Starting plugin: fade
+compiz (core) - Info: Loading plugin: grid
+compiz (core) - Info: Starting plugin: grid
+compiz (core) - Info: Loading plugin: imgpng
+compiz (core) - Info: Starting plugin: imgpng
+compiz (core) - Info: Loading plugin: mousepoll
+compiz (core) - Info: Starting plugin: mousepoll
+compiz (core) - Info: Loading plugin: move
+compiz (core) - Info: Starting plugin: move
+compiz (core) - Info: Loading plugin: scale
+compiz (core) - Info: Starting plugin: scale
+compiz (core) - Info: Loading plugin: unitymtgrabhandles
+compiz (core) - Info: Starting plugin: unitymtgrabhandles
+compiz (core) - Info: Loading plugin: workarounds
+compiz (core) - Info: Starting plugin: workarounds
+compiz (core) - Info: Loading plugin: expo
+compiz (core) - Info: Starting plugin: expo
+compiz (core) - Info: Loading plugin: ezoom
+compiz (core) - Info: Starting plugin: ezoom
+compiz (core) - Info: Loading plugin: unityshell
+compiz (core) - Info: Starting plugin: unityshell
+WARN  2016-10-20 18:05:51 unity.glib.dbus.server GLibDBusServer.cpp:579 Can't register object 'org.gnome.Shell' yet as we don't have a connection, waiting for it...
+ERROR 2016-10-20 18:05:52 unity.debug.interface DebugDBusInterface.cpp:216 Unable to load entry point in libxpathselect: libxpathselect.so.1.4: cannot open shared object file: No such file or directory
+WARN  2016-10-20 18:05:52 xim.controller XIMController.cpp:103 IBus natively supported.
+WARN  2016-10-20 18:05:52 unity.glib.dbus.server GLibDBusServer.cpp:579 Can't register object 'com.canonical.Unity.Launcher' yet as we don't have a connection, waiting for it...
+WARN  2016-10-20 18:05:52 unity.glib.dbus.server GLibDBusServer.cpp:579 Can't register object 'com.canonical.Unity.Dash' yet as we don't have a connection, waiting for it...
+WARN  2016-10-20 18:05:52 unity.glib.dbus.server GLibDBusServer.cpp:579 Can't register object 'org.gnome.SessionManager.EndSessionDialog' yet as we don't have a connection, waiting for it...
+WARN  2016-10-20 18:05:52 unity.glib.dbus.server GLibDBusServer.cpp:579 Can't register object 'com.canonical.Unity.Session' yet as we don't have a connection, waiting for it...
+WARN  2016-10-20 18:05:52 unity.glib.dbus.server GLibDBusServer.cpp:579 Can't register object 'org.gnome.ScreenSaver' yet as we don't have a connection, waiting for it...
+compiz (core) - Warn: Attempted to restack relative to 0x1a00091 which is not a child of the root window or a window compiz owns
+
+** (unity-fallback-mount-helper:4774): WARNING **: Can't call IsLocked() on the Unity.Session object: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.Unity.Session' on object at path /com/canonical/Unity/Session
+ERROR 2016-10-20 18:05:53 unity.glib.dbus.server GLibDBusServer.cpp:524 DBus name lost 'org.gnome.Shell'
+ERROR 2016-10-20 18:05:53 unity.glib.dbus.server GLibDBusServer.cpp:524 DBus name lost 'com.canonical.Unity'
+WARN  2016-10-20 18:06:00 unity.iconloader IconLoader.cpp:755 Unable to load icon file:/// at size -1x22: Can't open directory
+
+(nm-applet:4768): nm-applet-WARNING **: Could not find ShellVersion property on org.gnome.Shell after 5 tries
+
+** (zeitgeist-datahub:4961): WARNING **: zeitgeist-datahub.vala:229: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!
+
+(gnome-terminal:5003): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
+ERROR 2016-10-20 18:06:46 unityfree <unknown>:0 g_sequence_get: assertion '!is_end (iter)' failed
+ERROR 2016-10-20 18:06:46 unityyzer (self) <unknown>:0 Unable to get value. NULL row data in DeeSequenceModel@0x3c3c270 at position 1. The row has probably been removed
+ERROR 2016-10-20 18:06:46 unityyzer (self) <unknown>:0 Unable to get string. Column 5 in DeeSequenceModel@0x3c3c270 holds a NULL value in row 1
+ERROR 2016-10-20 18:06:46 unityfree <unknown>:0 g_sequence_get: assertion '!is_end (iter)' failed
+ERROR 2016-10-20 18:06:46 unityyzer (self) <unknown>:0 Unable to get value. NULL row data in DeeSequenceModel@0x3c3c270 at position 1. The row has probably been removed
+ERROR 2016-10-20 18:06:46 unityyzer (self) <unknown>:0 Unable to get string. Column 5 in DeeSequenceModel@0x3c3c270 holds a NULL value in row 1
+javaldx: Could not find a Java Runtime Environment!
+Warning: failed to read path from javaldx
+
+(process:7515): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+1476987309626	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1476987309783	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1476987311325	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1476987311348	addons.update-checker	WARN	Update manifest for ubufox@ubuntu.com did not contain an updates property
+1476987313976	addons.xpi	ERROR	Attempted to load bootstrap scope from missing directory /home/ubuntu/.mozilla/firefox/gwjnorr0.default/extensions/firefox-hotfix@mozilla.org.xpi
+1476987313976	addons.xpi	WARN	Add-on firefox-hotfix@mozilla.org is missing bootstrap method shutdown
+1476987313987	addons.manager	WARN	Exception calling callback: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isDirectory]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: getURIForResourceInFile :: line 1461"  data: no] Stack trace: getURIForResourceInFile()@resource://gre/modules/addons/XPIProvider.jsm:1461 < this.XPIProvider.callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4686 < this.XPIProvider.uninstallAddon()@resource://gre/modules/addons/XPIProvider.jsm:4964 < AddonWrapper.prototype.uninstall()@resource://gre/modules/addons/XPIProvider.jsm:7198 < uninstallHotfix/<()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/ubuntu/.mozilla/firefox/gwjnorr0.default/extensions/firefox-hotfix@mozilla.org.xpi!/bootstrap.js:93 < safeCall()@resource://gre/modules/AddonManager.jsm:179 < makeSafe/<()@resource://gre/modules/AddonManager.jsm:195 < Handler.prototype.process()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937 < this.PromiseWalker.walkerLoop()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816 < this.PromiseWalker.scheduleWalkerLoop/<()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750
+
+(process:7590): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+ERROR 2016-10-20 18:36:30 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-20 18:36:30 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-20 18:36:30 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(deja-dup-monitor:5137): GLib-CRITICAL **: Source ID 51 was not found when attempting to remove it
+ERROR 2016-10-20 20:43:26 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-20 20:43:26 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-20 20:43:26 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-20 21:00:19 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-20 21:00:19 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2016-10-20 21:00:21 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:21 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:21 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:21 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:21 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:00:21 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed

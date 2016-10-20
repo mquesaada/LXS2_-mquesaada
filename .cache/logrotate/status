@@ -1,0 +1,13 @@
+logrotate state -- version 2
+"/home/ubuntu/.cache/upstart/dbus.log" 2016-10-20-18:0:0
+"/home/ubuntu/.cache/upstart/gnome-session-Unity.log" 2016-10-20-18:0:0
+"/home/ubuntu/.cache/upstart/indicator-sound.log" 2016-10-20-18:0:0
+"/home/ubuntu/.cache/upstart/window-stack-bridge.log" 2016-10-20-18:0:0
+"/home/ubuntu/.cache/upstart/unity7.log" 2016-10-20-18:0:0
+"/home/ubuntu/.cache/upstart/ssh-agent.log" 2016-10-20-18:0:0
+"/home/ubuntu/.cache/upstart/indicator-bluetooth.log" 2016-10-20-18:0:0
+"/home/ubuntu/.cache/upstart/gnome-keyring-gpg.log" 2016-10-20-18:0:0
+"/home/ubuntu/.cache/upstart/update-notifier-release.log" 2016-10-20-18:0:0
+"/home/ubuntu/.cache/upstart/im-config.log" 2016-10-20-18:0:0
+"/home/ubuntu/.cache/upstart/gnome-keyring-ssh.log" 2016-10-20-18:0:0
+"/home/ubuntu/.cache/upstart/indicator-power.log" 2016-10-20-18:0:0
