@@ -177,3 +177,208 @@ ERROR 2016-10-20 21:00:21 unity <unknown>:0 AtkObject* unity_a11y_get_accessible
 ERROR 2016-10-20 21:00:21 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
 ERROR 2016-10-20 21:00:21 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
 ERROR 2016-10-20 21:00:21 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:22:56 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-20 21:22:56 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-20 21:22:56 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2016-10-20 21:32:20 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-20 21:32:20 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-20 21:32:20 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-20 21:53:26 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-20 21:53:26 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:32 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:32 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:32 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:32 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:32 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:53:32 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 21:55:35 unity.settings UnitySettings.cpp:244 Invalid monitor index: -1. Returning index 0 monitor instead.
+ERROR 2016-10-20 22:03:35 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-20 22:03:35 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-20 22:03:35 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2016-10-20 22:31:43 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-20 22:31:43 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-20 22:31:43 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(evince:9036): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+Nautilus-Share-Message: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Please ask your system administrator to enable user sharing.
+
+
+(evince:9036): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+
+(file-roller:9029): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+
+(gedit:5240): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+
+(soffice:5202): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+
+(firefox:5075): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+
+(gedit:5240): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+
+(soffice:5202): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+
+(evince:9036): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+
+(file-roller:9029): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+
+(firefox:5075): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+WARN  2016-10-20 23:03:35 unity <unknown>:0 Unable to fetch children: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/application/0x11a8ea0
+
+WARN  2016-10-20 23:03:35 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8ea0
+WARN  2016-10-20 23:03:35 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8ea0
+WARN  2016-10-20 23:03:35 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8ea0
+WARN  2016-10-20 23:03:35 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8ea0
+WARN  2016-10-20 23:03:35 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8ea0
+WARN  2016-10-20 23:03:35 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8ea0
+WARN  2016-10-20 23:03:35 unity <unknown>:0 Unable to fetch children: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/application/0x11a8ea0
+
+WARN  2016-10-20 23:03:35 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8ea0
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-20 23:03:43 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-20 23:03:43 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:03:44 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-10-20 23:12:28 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-20 23:12:28 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-20 23:12:28 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+javaldx: Could not find a Java Runtime Environment!
+Warning: failed to read path from javaldx
+javaldx: Could not find a Java Runtime Environment!
+Warning: failed to read path from javaldx
+javaldx: Could not find a Java Runtime Environment!
+Warning: failed to read path from javaldx
+WARN  2016-10-20 23:51:00 unity <unknown>:0 Unable to fetch children: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/application/0x11a8dc0
+
+WARN  2016-10-20 23:51:00 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8dc0
+WARN  2016-10-20 23:51:00 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8dc0
+WARN  2016-10-20 23:51:00 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8dc0
+WARN  2016-10-20 23:51:00 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8dc0
+WARN  2016-10-20 23:51:00 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8dc0
+WARN  2016-10-20 23:51:00 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8dc0
+WARN  2016-10-20 23:51:00 unity <unknown>:0 Unable to fetch children: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/application/0x11a8dc0
+
+WARN  2016-10-20 23:51:00 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.application' on object at path /org/ayatana/bamf/application/0x11a8dc0
+WARN  2016-10-20 23:51:00 unity <unknown>:0 Unable to fetch children: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/application/0x11a8dc0
+
+ERROR 2016-10-20 23:52:10 unityfree <unknown>:0 g_sequence_get: assertion '!is_end (iter)' failed
+ERROR 2016-10-20 23:52:10 unityyzer (self) <unknown>:0 Unable to get value. NULL row data in DeeSequenceModel@0x3c3c270 at position 12. The row has probably been removed
+ERROR 2016-10-20 23:52:10 unityyzer (self) <unknown>:0 Unable to get string. Column 5 in DeeSequenceModel@0x3c3c270 holds a NULL value in row 12
+
+(process:9924): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+javaldx: Could not find a Java Runtime Environment!
+Warning: failed to read path from javaldx
+
+(nautilus:4778): GLib-GIO-CRITICAL **: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+javaldx: Could not find a Java Runtime Environment!
+Warning: failed to read path from javaldx
+ERROR 2016-10-21 01:01:37 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-21 01:01:37 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-21 01:01:37 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(deja-dup-monitor:5137): GLib-CRITICAL **: Source ID 78 was not found when attempting to remove it
+
+(deja-dup-monitor:5137): GLib-CRITICAL **: Source ID 78 was not found when attempting to remove it
+
+(deja-dup-monitor:5137): GLib-CRITICAL **: Source ID 104 was not found when attempting to remove it
+ERROR 2016-10-21 01:32:51 unity.filemanager.gnome GnomeFileManager.cpp:210 Impossible to trash file 'file:///home/ubuntu/Desktop/problema1/hojasDatos/archivos_csv/datos.utf-8.out': Unable to find or create trash directory
+ERROR 2016-10-21 01:37:45 unity.filemanager.gnome GnomeFileManager.cpp:210 Impossible to trash file 'file:///home/ubuntu/Desktop/problema1/hojasDatos/archivos_csv/data.utf-8.out': Unable to find or create trash directory
+ERROR 2016-10-21 01:37:51 unity.filemanager.gnome GnomeFileManager.cpp:210 Impossible to trash file 'file:///home/ubuntu/Desktop/problema1/hojasDatos/archivos_csv/data.utf-8.out': Unable to find or create trash directory
+ERROR 2016-10-21 01:37:57 unity.filemanager.gnome GnomeFileManager.cpp:210 Impossible to trash file 'file:///home/ubuntu/Desktop/problema1/hojasDatos/archivos_csv/data.utf-8.out': Unable to find or create trash directory
+ERROR 2016-10-21 01:38:04 unity.filemanager.gnome GnomeFileManager.cpp:210 Impossible to trash file 'file:///home/ubuntu/Desktop/problema1/hojasDatos/archivos_csv/data.utf-8.out': Unable to find or create trash directory
+ERROR 2016-10-21 01:54:33 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-21 01:54:33 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-21 01:54:33 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:10966): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+ERROR 2016-10-21 02:37:01 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-21 02:37:01 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-21 02:37:01 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Nautilus-Share-Message: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Please ask your system administrator to enable user sharing.
+
+ERROR 2016-10-21 04:32:45 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-21 04:32:45 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-21 04:32:45 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2016-10-21 04:48:26 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-10-21 04:48:26 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-10-21 04:48:26 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:11739): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed

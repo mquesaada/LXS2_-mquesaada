@@ -3,18 +3,7 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/ubuntu/Downloads/Proyecto-de-Programacion.tar.gz" added="2016-10-20T18:09:28Z" modified="2016-10-20T18:09:32Z" visited="2016-10-20T18:09:28Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/x-compressed-tar"/>
-        <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-20T18:09:28Z" count="1"/>
-          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-10-20T18:09:32Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///tmp/.fr-mtSk4G/Proyecto-de-Programacion/problema1/Datos" added="2016-10-20T18:09:39Z" modified="2016-10-20T18:09:39Z" visited="2016-10-20T18:09:39Z">
+  <bookmark href="file:///tmp/.fr-pls74F/Proyecto-de-Programacion/problema1/Datos" added="2016-10-20T23:00:30Z" modified="2016-10-20T23:00:30Z" visited="2016-10-20T23:00:31Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/plain"/>
@@ -22,17 +11,138 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-10-20T18:09:39Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-10-20T23:00:30Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///tmp/.fr-bMJLNo/Proyecto-de-Programacion/problema1/hojasDatos/datos1.xls" added="2016-10-20T18:09:57Z" modified="2016-10-20T18:09:58Z" visited="2016-10-20T18:09:58.516423Z">
+  <bookmark href="file:///tmp/.fr-YVCevB/Proyecto-de-Programacion/problema1/hojasDatos/datos1.xls" added="2016-10-20T23:03:34Z" modified="2016-10-20T23:03:35Z" visited="2016-10-20T23:03:35Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/vnd.ms-excel"/>
         <bookmark:applications>
-          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2016-10-20T18:09:58Z" count="2"/>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2016-10-20T23:03:35Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/.fr-zbc7TG/Proyecto-de-Programacion/problema1/Datos" added="2016-10-20T23:04:10Z" modified="2016-10-20T23:04:10Z" visited="2016-10-20T23:04:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-10-20T23:04:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ubuntu/Desktop/problema1/hojasDatos/datos1.csv" added="2016-10-20T23:49:44Z" modified="2016-10-20T23:50:44Z" visited="2016-10-20T23:49:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --calc %U&apos;" modified="2016-10-20T23:50:33Z" count="2"/>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2016-10-20T23:50:44Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ubuntu/Desktop/problema1/hojasDatos/datos1.xls" added="2016-10-20T23:50:58Z" modified="2016-10-20T23:51:01Z" visited="2016-10-20T23:50:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-excel"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --calc %U&apos;" modified="2016-10-20T23:50:58Z" count="1"/>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2016-10-20T23:51:01Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ubuntu/Desktop/problema1/problema1.sh" added="2016-10-20T23:53:02Z" modified="2016-10-21T05:03:41Z" visited="2016-10-20T23:53:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-10-21T05:03:41Z" count="19"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ubuntu/Desktop/problema1/hojasDatos/archivos_csv/data-0.csv" added="2016-10-21T00:37:12Z" modified="2016-10-21T00:37:19Z" visited="2016-10-21T00:37:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --calc %U&apos;" modified="2016-10-21T00:37:12Z" count="1"/>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2016-10-21T00:37:19Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ubuntu/Desktop/problema1/hojasDatos/datos5.csv" added="2016-10-21T00:41:13Z" modified="2016-10-21T00:41:13Z" visited="2016-10-21T00:41:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --calc %U&apos;" modified="2016-10-21T00:41:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ubuntu/Desktop/problema1/hojasDatos/archivos_csv/data.utf-8.out" added="2016-10-21T01:37:04Z" modified="2016-10-21T01:37:04Z" visited="2016-10-21T01:37:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-10-21T01:37:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ubuntu/Desktop/problema1/Datos" added="2016-10-21T01:39:56Z" modified="2016-10-21T01:39:56Z" visited="2016-10-21T01:39:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-10-21T01:39:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ubuntu/Desktop/problema1/hojasDatos/datos_graf/graf-5.dat" added="2016-10-21T03:39:35Z" modified="2016-10-21T03:39:35Z" visited="2016-10-21T03:39:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-10-21T03:39:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ubuntu/Desktop/problema1/hojasDatos/datos_graf/graf-0.dat" added="2016-10-21T04:17:12Z" modified="2016-10-21T04:17:12Z" visited="2016-10-21T04:17:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-10-21T04:17:12Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

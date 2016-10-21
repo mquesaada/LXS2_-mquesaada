@@ -12,10 +12,10 @@
                    NC:prettyName="30 Boxes"
                    NC:uriTemplate="https://30boxes.com/external/widget?refer=ff&amp;url=%s" />
   <RDF:Description RDF:about="urn:mimetype:application/g-zip"
-                   NC:value="application/g-zip"
-                   NC:editable="true"
                    NC:fileExtensions="gz"
-                   NC:description="Gzip archive">
+                   NC:description="Gzip archive"
+                   NC:value="application/g-zip"
+                   NC:editable="true">
     <NC:handlerProp RDF:resource="urn:mimetype:handler:application/g-zip"/>
   </RDF:Description>
   <RDF:Seq RDF:about="urn:schemes:root">
@@ -58,7 +58,8 @@
   </RDF:Description>
   <RDF:Description RDF:about="urn:mimetype:handler:application/g-zip"
                    NC:alwaysAsk="true"
-                   NC:saveToDisk="true">
+                   NC:useSystemDefault="true"
+                   NC:saveToDisk="false">
     <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/g-zip"/>
   </RDF:Description>
   <RDF:Description RDF:about="urn:handler:web:https://www.mibbit.com/?url=%s"

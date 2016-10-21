@@ -121,3 +121,86 @@ Activating service name='com.ubuntu.sso'
 Successfully activated service 'com.ubuntu.sso'
 module-cache-reaper-Message: Reaping abandoned data directories
 module-cache-reaper-Message: Reaping abandoned cache directories
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ubuntu/.cache/oneconf/ae9f5f3f968e2d32c903b26058090751/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='org.gnome.evince.Daemon'
+Successfully activated service 'org.gnome.evince.Daemon'
+RegisterDocument registered owner ':1.130' for URI 'file:///tmp/.fr-yc3gS0/Proyecto-de-Programacion/PracticaYProblemas.pdf'
+Watch name':1.130' appeared with owner ':1.130'
+RegisterDocument process pending invocations for URI file:///tmp/.fr-yc3gS0/Proyecto-de-Programacion/PracticaYProblemas.pdf
+
+(zeitgeist-datahub:4907): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+
+(zeitgeist-datahub:4907): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ubuntu/.cache/oneconf/ae9f5f3f968e2d32c903b26058090751/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='org.freedesktop.PackageKit'
+INFO:Starting service
+Successfully activated service 'org.freedesktop.PackageKit'
+DEBUG:Checking for inactivity (30s)
+DEBUG:Checking for inactivity (60s)
+DEBUG:Checking for inactivity (90s)
+DEBUG:Checking for inactivity (120s)
+DEBUG:Checking for inactivity (150s)
+DEBUG:Checking for inactivity (180s)
+INFO:Shutting down because of inactivity
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ubuntu/.cache/oneconf/ae9f5f3f968e2d32c903b26058090751/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ubuntu/.cache/oneconf/ae9f5f3f968e2d32c903b26058090751/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
