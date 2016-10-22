@@ -1,0 +1,78 @@
+    1  apt-get install git
+    2  apt-get install tree
+    3  tree
+    4  git config --global user.name "Marco Quesada"
+    5  git config --global user.email marco.quesada.6@hotmail.es
+    6  git init
+    7  git clone https://github.com/emvarg/LXS2_emmanuel.git
+    8  pwd
+    9  ls
+   10  git config --global user.name "Marco Quesada"
+   11  git config --global user.email marco.quesada.6@hotmail.es
+   12  git remote add origin https://github.com/mquesaada/LXS2_-mquesaada.git
+   13  git init
+   14  git pull https://github.com/quesaada/LXS2_-mquesaada.git
+   15  git pull https://github.com/mquesaada/LXS2_-mquesaada.git
+   16  ls
+   17  cat history
+   18  cd history
+   19  ls
+   20  cd localhost.localamain-20161006
+   21  ls
+   22  cd localhost.localdomain-20161006
+   23  ls
+   24  git status
+   25  git add -A
+   26  git status
+   27  git add --all :/
+   28  git status
+   29  git commit -m "probando git add --all :/ "
+   30  git push origin master
+   31  cd ..
+   32  ped
+   33  pwd
+   34  ls
+   35  git pull
+   36  git pull origin master
+   37  clear
+   38  rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
+   39  apt-get install rpm
+   40  rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
+   41  yum update
+   42  apt-get update
+   43  q
+   44  clear
+   45  exit
+   46  apt-get update
+   47  apt-get install catdoc
+   48  apt-get update
+   49  apt-get install catdoc
+   50  l
+   51  clear
+   52  add-apt-reposotory universe
+   53  add-apt-repisotory universe
+   54  add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+   55  ls
+   56  gedit /etc/apt/sources.list
+   57  apt-get update
+   58  apt-get install catdoc
+   59  exit
+   60  apt-get install tree
+   61  pwd
+   62  cd Desktop
+   63  cd problemas1
+   64  cd problema1
+   65  tree
+   66  /. problema1.sh
+   67  ./ problema1.sh
+   68  exit
+   69  cd ..
+   70  git add --all
+   71  git status
+   72  git push origin master 
+   73  git commit -m "pasos antes de gnuplot"
+   74  git push origin master 
+   75  pwd
+   76  cd Desktop
+   77  mkdir history
+   78  history > history/history-$HOSTNAME-`date +%Y%m%d`
