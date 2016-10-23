@@ -1,0 +1,222 @@
+<h1><center>Easy Git -- <i>git for mere mortals</i></center></h1>
+
+<h3>What is Easy Git (eg)?</h3>
+<p>
+In short, Easy GIT is a single-file wrapper script for <a
+href="http://git.or.cz/">git</a>, designed to make git easy to learn and
+use.  (If you are not familiar with what git is, this page will make no
+sense to you.)  In more detail:
+
+<ul>
+  <li>eg focuses on documentation and examples
+    <ul>
+      <li>Much of the work in eg is <a
+          href="git-eg-differences.html#documentation">plugging a gap
+          in git documentation</a>: providing simple tutorial-oriented
+          command-specific built-in help.</li>
+      <li>eg's documentation is example driven</li>
+    </ul>
+  </li>
+  <li>eg removes obstacles to "getting" git
+    <ul>
+      <li> eg removes many principle-of-least-surprise violations that catch git newbies unaware</li>
+      <li> eg provides subcommands that are a natural extension of capabilities users know from cvs/svn (eg also takes care to make sure the modifications to its subcommands are easily discoverable and error-avoiding for existing git users as well!)</li>
+    </ul>
+  </li>  
+  <li>eg makes git easy to learn and use
+    <ul>
+      <li><em>easily learnable</em> - I claim you can learn git faster by
+          first using eg than by starting with git directly</li>
+      <li><em>interchangable</em> - You can switch between using eg and
+          using git as often as you'd like.  I do it all the same on the
+          same repositories.</li>
+      <li><em>fully capable</em> - Unlike other wrappers for git, eg does
+          not remove or limit any capabilities of git in order to simplify
+          it; it just tries to layer concepts and present the capabilities
+          in a more orderly fashion.</li>
+      <li><em>compatible</em> - eg is essentially command-line backwards
+          compatible to git; those familiar with git can start using eg by
+          simply replacing "git" with "eg" in their commands.</li>
+    </ul>
+  <li>eg is biased towards luring existing <a
+      href="git-for-svn-users.html">svn users</a>, due to the projects I
+      work on and svn's large installed base</li>
+</ul>
+
+<!--
+<h3>Motivation</h3>
+
+<p>
+My purpose is to demonstrate that a version of git could be written that
+achieves the following goals:
+<ul>
+  <li> <i>Easy</i>: I want it to be easy to use...and as easy for people to
+       transition to from other VCSes, as switching from cvs to svn
+       was. (Not seamless, but not difficult)</li>
+  <li> <i>Capable</i>: I want it to be something that git lovers would still
+       love to use.  Many suggestions to "fix" git's UI often curtail its
+       power (<i>git add -p</i> is one of my favorite features and you
+       better not take it away or make using it more difficult).</li>
+  <li> <i>Friendly</i>: I want it to "feel friendly" to new users and
+       converts from other systems, as well as to long time users.  A lot
+       of things in git are beautiful from an architectural point of view
+       once you understand all the internals, but much of git's UI
+       just <i>feels</i> sharp and uninviting.  Perhaps I am just still
+       missing some details of its internals or capabilities, but I don't
+       believe that the sharpness is actually necessary.</li>
+</ul>
+</p>
+
+<h3>Facilitating transition</h3>
+
+<p>
+I would really like to have a tool that
+<ul>
+  <li> SVN, bzr, or hg users can pick up and use almost immediately.</li>
+  <li> git users can pick up and use almost immediately.</li>
+</ul>
+Some may scoff, but I think it is not farfetched.
+-->
+
+<h3>Existing Git users</h3>
+
+<p>
+EasyGit is designed to make git easier to use and learn, not to extend
+git's functionality.  Because of this, you won't find new capabilities
+in EasyGit.  However, you don't need retraining either; eg is mostly
+backward compatible with git, and any incompatibilities can be
+discovered naturally and innocuosly during normal workflow (well,
+except for the eg push default -- see below).  All you need to do is
+replace 'git' with 'eg' in your commands.
+</p>
+
+<p>
+The two biggest shockers for existing git users are the changes in
+defaults to diff (which include both staged and unstaged changes by
+default) and push (which pushes the current branch instead of matching
+refs by default).  The latter is potentially problmatic, as it could
+result in pushing changes the user didn't want.  However, the current
+git default is equally bad for many new users.  The only safe thing
+for both sets is probably to require users to specify what to push in
+all cases; however, that seems pretty annoying for lots of very basic
+setups.  I guess the push default of eg is my one big ugly
+incompatibility with git.
+</p>
+
+<p>
+Those curious about the precise differences between eg and git and the
+rationale for these changes, can read my <a
+href="git-eg-differences.html">verbose explanations</a>.
+</p>
+
+<h3>Documentation</h3>
+
+<p>
+EasyGit's documentation is meant as built-in help; however, you can <a
+href="documentation">view it online</a>.
+</p>
+
+<p>
+There's also a (pdf) presentation, <a
+href="presentations/git-introduction.pdf">An Introduction to (Easy)
+Git</a> (more of a capability overview than a tutorial, though example
+commands are shown).
+</p>
+
+<h3>Download/Install</h3>
+
+<p>
+Three easy steps:
+<ul>
+  <li>Install <a href="http://git.or.cz/">git</a> >= 1.5.4 (eg is just a
+      wrapper, which simply passes its arguments on to git except in
+      specific important cases).</li>
+  <li><a href="download">Download a copy of eg</a>
+  <li>Place the eg script somewhere in your path</li>
+</ul>
+If you aren't one of those "shoot first and ask questions later" types,
+just fire off an 'eg help' to get oriented.  You may also find the <a
+href="git-for-svn-users.html">(easy) git for svn users</a> page helpful.
+</p>
+
+<h3>Development</h3>
+
+<p>
+You can follow <a href="http://gitorious.org/projects/eg">development of eg</a>
+by cloning a copy.  Use either
+<blockquote>
+    git clone git://gitorious.org/eg/mainline.git eg
+</blockquote>
+or
+<blockquote>
+    eg clone git://gitorious.org/eg/mainline.git eg
+</blockquote>
+</p>
+
+<h3>Other similar projects</h3>
+
+<p>
+I feel that Easy Git is different from the others in the field in its
+combination of goals (a) it focuses on trying to be easy to learn for
+former cvs/svn users, (b) it tries to serve as a training tool for core git
+rather than trying to replace core git entirely, (c) it tries to remain
+backward compatible to core git (so that users already familiar with git
+don't need any new training and to make it easier for core git to adopt
+changes in eg), and (d) it's only a single file script to make it easier to
+try out.
+</p>
+
+<p>
+There are some other interesting alternatives out there that decided to
+concentrate on different goals, including:
+<ul>
+
+  <li><a href="http://repo.or.cz/w/yap.git">yap</a> (<a href=
+       "http://thread.gmane.org/gmane.comp.version-control.git/95075"
+       >announcement</a>), by Steven Walter
+    <p>
+      A porcelain that concentrates on making git easier for those
+      interacting with subversion repositories; particularly trying to
+      reduce the impedance mismatch that exists between the very
+      different workflows typically used with native git repositories
+      versus git-svn ones.
+    </p>
+  </li>
+  <li><a href="http://pyrite.sophiasuchtig.com/">pyrite</a>, by Govind Salinas
+    <p>
+      A porcelain focusing on providing a Mercurial-like user interface.
+    </p>
+  </li>
+  <li><a href="http://blogs.gnome.org/timj/2007/10/30/30102007-yummyyummysourcecontrol-version-09/">yyhelp</a>, by Tim Janik
+    <p>
+      A single file bash script serving as a minimal porcelain.  Emphasis
+      on minimal; it's a very short file with no documentation that I could
+      find.
+    </p>
+  <li><a href="http://labs.trolltech.com/blogs/2008/03/30/sourcecode-collaboration/">vng</a>, by Thomas Zander</li>
+    <p>
+      A porcelain focusing on providing a darcs-like user interface.
+    </p>
+</ul>
+</p>
+
+<!--
+<h3>Work in progress</h3>
+
+<p>
+Unfortunately, eg is not complete; it's just a preliminary version of a
+work in progress.  For example, you may find it referring to help pages
+that don't yet exist.  Sorry about that.  However, it is good enough for
+daily use already...at least for me.  (Update: and for <a
+href="http://log.ometer.com/2008-03.html">Havoc</a>).
+</p>
+-->
+æîç#8Œ      X		ÕX		—=|XDM   %    :https://people.gnome.org/~newren/eg/ necko:classified 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 20 Oct 2016 18:15:45 GMT
+Server: Apache/2.2.15 (Red Hat)
+Last-Modified: Mon, 02 Mar 2009 03:47:43 GMT
+Etag: "ab2fc8bea4a395e0-20b5-4641aae4c35c0"
+Accept-Ranges: bytes
+Content-Length: 8373
+Content-Type: text/html; charset=UTF-8
+ charset UTF-8 uncompressed-len 0    µ

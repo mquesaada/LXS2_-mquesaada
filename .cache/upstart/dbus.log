@@ -1,0 +1,206 @@
+Activating service name='org.ayatana.bamf'
+Activating service name='org.gtk.vfs.Daemon'
+Activating service name='org.a11y.Bus'
+Successfully activated service 'org.gtk.vfs.Daemon'
+Successfully activated service 'org.a11y.Bus'
+Activating service name='org.a11y.atspi.Registry'
+Successfully activated service 'org.a11y.atspi.Registry'
+
+** (at-spi2-registryd:4496): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (at-spi2-registryd:4496): WARNING **: Unable to register client with session manager
+Successfully activated service 'org.ayatana.bamf'
+Activating service name='ca.desrt.dconf'
+Successfully activated service 'ca.desrt.dconf'
+Activating service name='org.gnome.GConf'
+Successfully activated service 'org.gnome.GConf'
+Activating service name='com.canonical.indicator.keyboard'
+Activating service name='org.freedesktop.Notifications'
+Activating service name='org.gnome.ScreenSaver'
+Activating service name='org.gnome.evolution.dataserver.Sources2'
+Successfully activated service 'org.freedesktop.Notifications'
+Successfully activated service 'org.gnome.ScreenSaver'
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: picture-opacity
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: primary-color
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: secondary-color
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: color-shading-type
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: show-notifications
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: picture-options
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: show-full-name-in-top-bar
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: picture-uri
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: disable-command-line
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: disable-application-handlers
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: user-administration-disabled
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: disable-printing
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: disable-log-out
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: disable-print-setup
+
+** (gnome-screensaver:4716): WARNING **: Config key not handled: disable-save-to-disk
+Successfully activated service 'com.canonical.indicator.keyboard'
+module-cache-reaper-Message: Scanning data directories
+module-cache-reaper-Message: Scanning cache directories
+Successfully activated service 'org.gnome.evolution.dataserver.Sources2'
+Activating service name='org.gnome.evolution.dataserver.Calendar4'
+Successfully activated service 'org.gnome.evolution.dataserver.Calendar4'
+Activating service name='org.gtk.vfs.Metadata'
+Successfully activated service 'org.gtk.vfs.Metadata'
+Activating service name='org.gtk.Private.UDisks2VolumeMonitor'
+Successfully activated service 'org.gtk.Private.UDisks2VolumeMonitor'
+Activating service name='org.gtk.Private.MTPVolumeMonitor'
+Successfully activated service 'org.gtk.Private.MTPVolumeMonitor'
+Activating service name='org.gtk.Private.GPhoto2VolumeMonitor'
+Successfully activated service 'org.gtk.Private.GPhoto2VolumeMonitor'
+Activating service name='org.gtk.Private.AfcVolumeMonitor'
+Successfully activated service 'org.gtk.Private.AfcVolumeMonitor'
+** Message: Lost the name, shutting down.
+Activating service name='com.canonical.Unity.Scope.Home'
+Successfully activated service 'com.canonical.Unity.Scope.Home'
+
+(unity-scope-home:4876): unity-scope-home-WARNING **: platform-info.vala:112: Unable to read SIM properties: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
+Activating service name='com.canonical.Unity.Scope.Applications'
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Activating service name='com.canonical.Unity.Scope.LocalFiles'
+Activating service name='org.gnome.zeitgeist.Engine'
+Activating service name='org.gnome.zeitgeist.SimpleIndexer'
+Successfully activated service 'org.gnome.zeitgeist.Engine'
+
+(process:4890): unity-files-daemon-WARNING **: folder.vala:65: Failed to read favorites: Failed to open file '/home/ubuntu/.gtk-bookmarks': No such file or directory
+Successfully activated service 'com.canonical.Unity.Scope.LocalFiles'
+** Message: Index must be upgraded. Doing full rebuild
+Successfully activated service 'org.gnome.zeitgeist.SimpleIndexer'
+
+(zeitgeist-datahub:4907): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+
+(zeitgeist-datahub:4907): GLib-GObject-CRITICAL **: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://zeitgeist-datahub.desktop
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.Applications'
+Activating service name='org.freedesktop.Telepathy.AccountManager'
+Successfully activated service 'org.freedesktop.Telepathy.AccountManager'
+Activating service name='com.canonical.indicators.webcredentials'
+Successfully activated service 'com.canonical.indicators.webcredentials'
+Activating service name='com.canonical.Unity.Scope.Music'
+Successfully activated service 'com.canonical.Unity.Scope.Music'
+
+(unity-music-daemon:4980): unity-music-daemon-WARNING **: rhythmbox-collection.vala:510: Unable to open album-art DB!
+
+(unity-music-daemon:4980): unity-music-daemon-WARNING **: rhythmbox-collection.vala:574: Error while parsing rhythmbox DB: Error opening file: No such file or directory
+
+(unity-scope-home:4876): unity-scope-home-WARNING **: smart-scopes-search.vala:81: Error parsing server data: <data>:1:1: Parse error: unexpected character `{', expected string constant
+
+(unity-scope-home:4876): unity-scope-home-WARNING **: smart-scopes-search.vala:81: Error parsing server data: <data>:1:14: Parse error: unexpected character `:', expected value
+
+(unity-scope-home:4876): unity-scope-home-WARNING **: smart-scopes-search.vala:81: Error parsing server data: <data>:1:12: Parse error: unexpected character `:', expected value
+
+(unity-scope-home:4876): unity-scope-home-WARNING **: smart-scopes-search.vala:501: Request returned status code 400
+
+** (zeitgeist-datahub:4907): WARNING **: zeitgeist-datahub.vala:212: Error during inserting events: GDBus.Error:org.gnome.zeitgeist.EngineError.InvalidArgument: Incomplete event: interpretation, manifestation and actor are required
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ubuntu/.cache/oneconf/ae9f5f3f968e2d32c903b26058090751/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+module-cache-reaper-Message: Reaping abandoned data directories
+module-cache-reaper-Message: Reaping abandoned cache directories
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ubuntu/.cache/oneconf/ae9f5f3f968e2d32c903b26058090751/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='org.gnome.evince.Daemon'
+Successfully activated service 'org.gnome.evince.Daemon'
+RegisterDocument registered owner ':1.130' for URI 'file:///tmp/.fr-yc3gS0/Proyecto-de-Programacion/PracticaYProblemas.pdf'
+Watch name':1.130' appeared with owner ':1.130'
+RegisterDocument process pending invocations for URI file:///tmp/.fr-yc3gS0/Proyecto-de-Programacion/PracticaYProblemas.pdf
+
+(zeitgeist-datahub:4907): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+
+(zeitgeist-datahub:4907): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ubuntu/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ubuntu/.local/share/recently-used.xbel': Permission denied.
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ubuntu/.cache/oneconf/ae9f5f3f968e2d32c903b26058090751/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='org.freedesktop.PackageKit'
+INFO:Starting service
+Successfully activated service 'org.freedesktop.PackageKit'
+DEBUG:Checking for inactivity (30s)
+DEBUG:Checking for inactivity (60s)
+DEBUG:Checking for inactivity (90s)
+DEBUG:Checking for inactivity (120s)
+DEBUG:Checking for inactivity (150s)
+DEBUG:Checking for inactivity (180s)
+INFO:Shutting down because of inactivity
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ubuntu/.cache/oneconf/ae9f5f3f968e2d32c903b26058090751/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ubuntu/.cache/oneconf/ae9f5f3f968e2d32c903b26058090751/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:4906): WARNING **: Unable to get info on application://nautilus-autostart.desktop

@@ -1,0 +1,133 @@
+    1  pwd
+    2  ls
+    3  cd home
+    4  cd ..
+    5  ls
+    6  cd home
+    7  ls
+    8  pvdisplay
+    9  clear
+   10  pwd
+   11  ls
+   12  cd Proyectos
+   13  cd proyectos-1
+   14  ls
+   15  cd Proyectos-1
+   16  pwd
+   17  cd Proyecto-1
+   18  ls
+   19  cd doc
+   20  ls
+   21  cd entregables
+   22  pvdisplay > pvdisplay_original
+   23  ls
+   24  lvdisplay > lvdisplay_original
+   25  ls
+   26  vgdisplay > vgdisplay_original
+   27  ls
+   28  clear
+   29  ls
+   30  fdisk -l
+   31  fdisk /dev/sdb
+   32  clear
+   33  ls
+   34  fdisk -l
+   35  clear
+   36  pvcreate /dev/sdb1
+   37  ls
+   38  lvdisplay
+   39  ls
+   40  cat lvdisplay_original
+   41  pvextend centos dev/sdb1
+   42  vgextend centos dev/sdb1
+   43  vgcreate /dev/sdb1
+   44  vgextend centos /dev/sdb1
+   45  vgdisplay
+   46  vgdisplay > vgdisplay_extendido
+   47  ls
+   48  pvextend centos /dev/sdb1
+   49  clear
+   50   ls
+   51  lvextend -L +200M /dev/centos/swap
+   52  ls
+   53   yum install tree
+   54   tree
+   55  lvdisplay
+   56  lvdisplay > lvdisplay_extendido
+   57  tree
+   58  pvdisplay > pvdisplay_extendido
+   59  cd ..
+   60  tree
+   61  resize2fs
+   62  resize2fs /dev/sdb1
+   63  git remote add origin https://github.com/mquesaada/LXS2_-mquesaada.git
+   64  git remote -v
+   65  git push origin master
+   66  git init
+   67  git remote add origin https://github.com/mquesaada/LXS2_-mquesaada.git
+   68  git push origin master
+   69  git remote -v
+   70  git push origin master
+   71  mkdir history
+   72  cd history
+   73  history/history-$hostname-`date +%Y%M%D` -Investigacion
+   74  history > history-$hostname-`date +%Y%M%D` -Investigacion
+   75  history > history/-$hostname-`date +%Y%M%D` -Investigacion
+   76  history/-$HOSTNAME-`date +%Y%M%D`
+   77  git commit -m "final de investigacion"
+   78  ls
+   79  pdw
+   80  pwd
+   81  ls
+   82  cd ..
+   83  ls
+   84  git add home/history
+   85  git add history
+   86  git commit -m "final de investigacion"
+   87  history > history/-$hostname-`date +%Y%M%D` -Investigacion
+   88  cd history
+   89  history > history/-$hostname-`date +%Y%M%D` -Investigacion
+   90  history > history/-$HOSTNAME-`date +%Y%M%D` -Investigacion
+   91  tree
+   92  cd ..
+   93  ls
+   94  cd Proyectos
+   95  tree
+   96  history > history/-$HOSTNAME-`date +%Y%m%d`
+   97  git init
+   98  history > history/-$HOSTNAME-`date +%Y%m%d`
+   99  git remote add origin https//:github.com/mquesaada/LXS2_-mquesaada.git
+  100  git remote -v
+  101  git commit -m "Final de investigacion"
+  102  git status
+  103  git add Proyectos
+  104  git status
+  105  git add Proyecto-1
+  106  git status
+  107  git commit -m "Final de investigacion"
+  108  git log
+  109  cd Proyecto-1
+  110  history > history/-$HOSTNAME-`date +%Y%m%d`
+  111  history/history/-$HOSTNAME-`date +%Y%m%d`
+  112  vim .gitignore
+  113  cd ..
+  114  ls
+  115  cd ..
+  116  ld
+  117  ls
+  118  rm history
+  119   mv /histry/ /Proyectos/
+  120  ls
+  121   mv /history/ /Proyectos/
+  122  mv /home/history/ /home/Proyectos/
+  123  ls
+  124  cd Proyectos
+  125  ls
+  126  mv /home/Proyectos/history/ /home/Proyectos/Proyecto-1/
+  127  ls
+  128  cd Proyectos-1
+  129  cd Proyecto-1
+  130  ls
+  131  history > history
+  132  history > /history/
+  133  history > history/-$HOSTNAME-`date +%Y%m%d`

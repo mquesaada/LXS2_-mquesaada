@@ -1,0 +1,40 @@
+    1  clear
+    2  ls
+    3  sudo -s
+    4  ls\
+    5  ls
+    6  pwd
+    7  mkdir LXS2_maquesada
+    8  cd mquesada
+    9  cd LXS2_mquesada
+   10  cd LXS2_maquesada
+   11  pwd
+   12  vim .gitignore
+   13  mkdir history
+   14  mkdir src
+   15  mkdir misc
+   16  tree
+   17  sudo apt-get install tree
+   18  tree
+   19  touch history/file
+   20  touch misc/file
+   21  touch src/file
+   22  tree
+   23  git config --global user.name "Marco Quesada"
+   24  git config --global user.email marco.quesada.6@hotmail.es
+   25  git init
+   26  cat ../.gitconfig
+   27  ls ../
+   28  ls../..
+   29  ls ../..
+   30  cat ../.gitconfig
+   31  tree
+   32  git add .gitignore
+   33  git status
+   34  touch misc/file2
+   35  tree
+   36  git add misc/
+   37  git status
+   38  git commit -m "inicio del arbol del desarrollo"
+   39  git log
+   40  history > history/history-$HOSTNAME-`date +%Y%m%d`
