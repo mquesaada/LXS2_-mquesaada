@@ -1,0 +1,202 @@
+    1  apt-get install git
+    2  apt-get install tree
+    3  tree
+    4  git config --global user.name "Marco Quesada"
+    5  git config --global user.email marco.quesada.6@hotmail.es
+    6  git init
+    7  git clone https://github.com/emvarg/LXS2_emmanuel.git
+    8  pwd
+    9  ls
+   10  git config --global user.name "Marco Quesada"
+   11  git config --global user.email marco.quesada.6@hotmail.es
+   12  git remote add origin https://github.com/mquesaada/LXS2_-mquesaada.git
+   13  git init
+   14  git pull https://github.com/quesaada/LXS2_-mquesaada.git
+   15  git pull https://github.com/mquesaada/LXS2_-mquesaada.git
+   16  ls
+   17  cat history
+   18  cd history
+   19  ls
+   20  cd localhost.localamain-20161006
+   21  ls
+   22  cd localhost.localdomain-20161006
+   23  ls
+   24  git status
+   25  git add -A
+   26  git status
+   27  git add --all :/
+   28  git status
+   29  git commit -m "probando git add --all :/ "
+   30  git push origin master
+   31  cd ..
+   32  ped
+   33  pwd
+   34  ls
+   35  git pull
+   36  git pull origin master
+   37  clear
+   38  rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
+   39  apt-get install rpm
+   40  rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
+   41  yum update
+   42  apt-get update
+   43  q
+   44  clear
+   45  exit
+   46  apt-get update
+   47  apt-get install catdoc
+   48  apt-get update
+   49  apt-get install catdoc
+   50  l
+   51  clear
+   52  add-apt-reposotory universe
+   53  add-apt-repisotory universe
+   54  add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+   55  ls
+   56  gedit /etc/apt/sources.list
+   57  apt-get update
+   58  apt-get install catdoc
+   59  exit
+   60  apt-get install tree
+   61  pwd
+   62  cd Desktop
+   63  cd problemas1
+   64  cd problema1
+   65  tree
+   66  /. problema1.sh
+   67  ./ problema1.sh
+   68  exit
+   69  cd ..
+   70  git add --all
+   71  git status
+   72  git push origin master 
+   73  git commit -m "pasos antes de gnuplot"
+   74  git push origin master 
+   75  pwd
+   76  cd Desktop
+   77  mkdir history
+   78  history > history/history-$HOSTNAME-`date +%Y%m%d`
+   79  git commit -m "agregue historial".
+   80  git status
+   81  got log
+   82  git log
+   83  git commit -m "se agrego el history"
+   84  clear
+   85  cd problema1
+   86  tree
+   87  ls
+   88  bash problema1.sh
+   89  vim
+   90  apt-get install vim
+   91  vim
+   92  clear
+   93  bash problema1.sh
+   94  clear
+   95  vim
+   96  vim problema1.sh
+   97  bash problem1.sh
+   98  bash problema1.sh
+   99  vim problema1.sh
+  100  bash problema1.sh
+  101  display fig1.png
+  102  git status
+  103  cd ..
+  104  git add history/
+  105  git status
+  106  pwd
+  107  cd ..
+  108  cd home
+  109  pwd
+  110  cd ..
+  111  ls
+  112  mkdir proyecto
+  113  ls
+  114  cd proyecto/
+  115  cp /home/ubuntu/Desktop/history/ ./
+  116  cp -r /home/ubuntu/Desktop/history/ ./
+  117  ls
+  118  cp -r /home/ubuntu/Desktop/problema1/ ./
+  119  ls
+  120  git init
+  121  ls
+  122  cd history
+  123  ls
+  124  cat history-ubuntu-20161021 
+  125  git config --global user.name "Marco Quesada"........
+  126  cd ..
+  127  git config --global user.name "Marco Quesada"
+  128  git config --global user.email marco.quesada.6@hotmail.es
+  129  ls
+  130  git comit -m "Proyecto 
+  131  git comit -m "Proyecto1 con history"
+  132  git commit -m "Proyecto1 con history"
+  133  git add history/
+  134  git add problema1/
+  135  git status
+  136  git commit -m "Proyecto1 con history"
+  137  git push origin master
+  138  git push
+  139  git push origin master
+  140  history > history/
+  141  cd history/
+  142  history > ./
+  143  history > /history
+  144  ls
+  145  cd ..
+  146  git config --global user.email marco.quesada.6@hotmail.es
+  147  git config --global user.name "Marco Quesada"
+  148  git remote add origin https://github.com/mquesaada/LXS2_-mquesaada.git
+  149  git status
+  150  ls
+  151  git push origin master
+  152* git pull https://github.com/mquesaada/LXS2_-mq
+  153  ls
+  154  rm misc
+  155  rm -rf misc
+  156  ls
+  157  rm -rf LXS2_emmanuel
+  158  rm Downloads
+  159  rm -rf Downloads/
+  160  rm -rf Desktop/
+  161  rm -rf doc
+  162  rm -rf src
+  163  ls
+  164  rm datos1.csv 
+  165  ls
+  166  git push origin master
+  167  git diff
+  168  git status
+  169  git log
+  170  clear
+  171  ls
+  172  mv proyecto proyecto_programado
+  173  cd ..
+  174  ls
+  175  mv proyecto proyecto_programado
+  176  ls
+  177  cd proyecto_programado/
+  178  ls
+  179  cd ..
+  180  ls
+  181  cd proyecto_programado/
+  182  cd problema1/
+  183  ls
+  184  cd hojasDatos/
+  185  ls
+  186  cd ..
+  187  git commit -m "problema1 listo"
+  188  git push origim master
+  189  git config --global user.email marco.quesada.6@hotmail.es
+  190  git config --global user.name "Marco Quesada"
+  191  git init
+  192  git push origin master
+  193  git push origin HEAD:master
+  194  ls
+  195  history
+  196  history > history-$HOSTNAME-`date +%Y%m%d`
+  197  history > history/
+  198  cd history/
+  199  ls
+  200  cat history-ubuntu-20161021
+  201* 
+  202  history > history-$HOSTNAME-`date +%Y%m%d`
